@@ -201,7 +201,7 @@
             <li class="menu-header small text-uppercase"><span class="menu-header-text">Customer Support</span></li>
             <li class="menu-item">
               <a
-                href="https://github.com/themeselection/sneat-html-admin-template-free/issues"
+                href="https://www.facebook.com/profile.php?id=61556461702879"
                 target="_blank"
                 class="menu-link"
               >
@@ -341,7 +341,7 @@
 
 
 
-          <!-- Content wrapper -->
+          <!-- Content wrapper --><
         </div>
         <!-- / Layout page -->
       </div>
