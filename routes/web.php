@@ -18,6 +18,10 @@ Route::get('/', function () {
 });
 
 
-Route::get('/Admin/Dashboard', function () {
+Route::get('/Admin-Dashboard', function () {
     return view('dashboard');
+});
+
+Route::get('/Admin-Account', function () {
+    return view('accountsset\account');
 });
