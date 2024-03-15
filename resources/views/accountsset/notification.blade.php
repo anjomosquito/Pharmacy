@@ -4,13 +4,14 @@
     <!-- Layout wrapper -->
     <div class="layout-wrapper layout-content-navbar">
       <div class="layout-container">
-        <!-- Menu -->
+
+      <!-- Menu -->
 
         @include('menu')
 
           <ul class="menu-inner py-1">
             <!-- Dashboard -->
-            <li class="menu-item active">
+            <li class="menu-item">
               <a href="{{ url('/Admin-Dashboard') }}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">Dashboard</div>
@@ -18,22 +19,22 @@
             </li>
 
                 
-              <!-- -->
+              
             <li class="menu-header small text-uppercase">
               <span class="menu-header-text">Pages</span>
             </li>
-            <li class="menu-item">
+            <li class="menu-item active open">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-dock-top"></i>
                 <div data-i18n="Account Settings">Account Settings</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                <a href="{{ url('/Admin-Account') }}" class="menu-link">
+                  <a href="{{ url('/Admin-Account') }}" class="menu-link">
                     <div data-i18n="Account">Account</div>
                   </a>
                 </li>
-                <li class="menu-item">
+                <li class="menu-item active">
                   <a href="{{ url('/Admin-Notifications') }}" class="menu-link">
                     <div data-i18n="Notifications">Notifications</div>
                   </a>
@@ -77,26 +78,8 @@
           @include('navbar')
 
           <!-- Content wrapper -->
-          <div class="content-wrapper">
-            <!-- Content -->
-
-           <div class="container">
-              <div class="row">
-                  <div class="col-md-6 offset-md-3">
-                      <div class="card">
-                          <img src="{{ asset('puremed/puremed.jpg') }}" class="card-img-top" alt="Your Picture">
-                          <div class="card-body">
-                              <h5 class="card-title">Puremed Pharmacy</h5>
-                              <p class="card-text">Navarro St. Brgy. Taft, Surigao City 8400</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-
-
-
-          <!-- Content wrapper --><
+          
+          <!-- Content wrapper -->
         </div>
         <!-- / Layout page -->
       </div>
