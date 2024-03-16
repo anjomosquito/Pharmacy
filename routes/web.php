@@ -29,3 +29,5 @@ Route::get('/Admin-Account', function () {
 Route::get('/Admin-Notifications', function () {
     return view('accountsset\notification');
 });
+
+
